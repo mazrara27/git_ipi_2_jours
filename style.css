@@ -9,11 +9,24 @@
 
 }
 .background-linear-gradient {
+   background: linear-gradient(
+  to left,
+  #333333 40%,
+  #eeeeee 75%,
+  #333333 75%
+);
 
 }
 .background-img {
     display:flex;
     justify-content:center;
     align-items:center;
+    background-image: url("https://picsum.photos/200/300");
+    color: #ffff;
 
+}
+.border{
+    background-color: aqua;
+    border: 2px dashed black;
+    border-radius: 0 2px 6px;
 }

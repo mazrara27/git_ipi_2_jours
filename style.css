@@ -54,6 +54,8 @@
   background-color: #55db34be;
   color: white;
   border-radius: 30px;
+  border-color: black;
+   border-style: solid;
 }
 .ROUGE {
   color: black;
@@ -62,6 +64,7 @@
 }
 .rond_rouge{
   background-color: red;
-  width: 10px;
-  height: 10px;
+  width: 20px;
+  height: 20px;
+  border-radius: 20px;
 }

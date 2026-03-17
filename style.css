@@ -1,4 +1,19 @@
 .le_p {
     color: orange;
+    font-size: 2em;
+    text-decoration: underline;
+    background-color: aqua;
+}
+.background-color {
+    background-color: aqua;
+
+}
+.background-linear-gradient {
+
+}
+.background-img {
+    display:flex;
+    justify-content:center;
+    align-items:center;
 
 }

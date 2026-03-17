@@ -43,8 +43,25 @@
 }
 
 .box {
+  display: flex;
+  justify-content: center; /* Centre horizontalement */
+  align-items: flex-start; /* Aligne le texte en haut */
+  padding-top: 20px;       /* Ajuste cette valeur pour la hauteur voulue */
+  
+  /* Style de la box */
   width: 200px;
-  height: 400px;
-  align-items: center;
-  background-color: #0cce26c9;
+  height: 200px;
+  background-color: #55db34be;
+  color: white;
+  border-radius: 30px;
+}
+.ROUGE {
+  color: black;
+  text-decoration-line: underline;
+
+}
+.rond_rouge{
+  background-color: red;
+  width: 10px;
+  height: 10px;
 }
